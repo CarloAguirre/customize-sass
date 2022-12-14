@@ -9,7 +9,7 @@
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
-  --bs-purple: #cf649a;
+  --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -37,7 +37,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-purple: #cf649a;
+  --bs-sass: #cf649a;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -46,12 +46,12 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-purple-rgb: 207, 100, 154;
+  --bs-sass-rgb: 207, 100, 154;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "La Belle Aurore", cursive;
+  --bs-font-sans-serif: "La Belle Aurore", cursive, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -312,7 +312,7 @@ pre code {
 /* line 306, ../tester/assets/css/scss/_reboot.scss */
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #cf649a;
   word-wrap: break-word;
 }
 
@@ -3754,21 +3754,21 @@ fieldset:disabled .btn {
 }
 
 /* line 60, ../tester/assets/css/scss/_buttons.scss */
-.btn-purple {
+.btn-sass {
   color: #000;
   background-color: #cf649a;
   border-color: #cf649a;
 }
 
 /* line 26, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-purple:hover {
+.btn-sass:hover {
   color: #000;
   background-color: #d67ba9;
   border-color: #d474a4;
 }
 
 /* line 32, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:focus + .btn-purple, .btn-purple:focus {
+.btn-check:focus + .btn-sass, .btn-sass:focus {
   color: #000;
   background-color: #d67ba9;
   border-color: #d474a4;
@@ -3776,23 +3776,23 @@ fieldset:disabled .btn {
 }
 
 /* line 45, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:checked + .btn-purple,
-.btn-check:active + .btn-purple, .btn-purple:active, .btn-purple.active,
-.show > .btn-purple.dropdown-toggle {
+.btn-check:checked + .btn-sass,
+.btn-check:active + .btn-sass, .btn-sass:active, .btn-sass.active,
+.show > .btn-sass.dropdown-toggle {
   color: #000;
   background-color: #d983ae;
   border-color: #d474a4;
 }
 
 /* line 56, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:checked + .btn-purple:focus,
-.btn-check:active + .btn-purple:focus, .btn-purple:active:focus, .btn-purple.active:focus,
-.show > .btn-purple.dropdown-toggle:focus {
+.btn-check:checked + .btn-sass:focus,
+.btn-check:active + .btn-sass:focus, .btn-sass:active:focus, .btn-sass.active:focus,
+.show > .btn-sass.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(176, 85, 131, 0.5);
 }
 
 /* line 66, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-purple:disabled, .btn-purple.disabled {
+.btn-sass:disabled, .btn-sass.disabled {
   color: #000;
   background-color: #cf649a;
   border-color: #cf649a;
@@ -4103,39 +4103,39 @@ fieldset:disabled .btn {
 }
 
 /* line 66, ../tester/assets/css/scss/_buttons.scss */
-.btn-outline-purple {
+.btn-outline-sass {
   color: #cf649a;
   border-color: #cf649a;
 }
 
 /* line 88, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-outline-purple:hover {
+.btn-outline-sass:hover {
   color: #000;
   background-color: #cf649a;
   border-color: #cf649a;
 }
 
 /* line 94, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:focus + .btn-outline-purple, .btn-outline-purple:focus {
+.btn-check:focus + .btn-outline-sass, .btn-outline-sass:focus {
   box-shadow: 0 0 0 0.25rem rgba(207, 100, 154, 0.5);
 }
 
 /* line 99, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:checked + .btn-outline-purple,
-.btn-check:active + .btn-outline-purple, .btn-outline-purple:active, .btn-outline-purple.active, .btn-outline-purple.dropdown-toggle.show {
+.btn-check:checked + .btn-outline-sass,
+.btn-check:active + .btn-outline-sass, .btn-outline-sass:active, .btn-outline-sass.active, .btn-outline-sass.dropdown-toggle.show {
   color: #000;
   background-color: #cf649a;
   border-color: #cf649a;
 }
 
 /* line 108, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-check:checked + .btn-outline-purple:focus,
-.btn-check:active + .btn-outline-purple:focus, .btn-outline-purple:active:focus, .btn-outline-purple.active:focus, .btn-outline-purple.dropdown-toggle.show:focus {
+.btn-check:checked + .btn-outline-sass:focus,
+.btn-check:active + .btn-outline-sass:focus, .btn-outline-sass:active:focus, .btn-outline-sass.active:focus, .btn-outline-sass.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(207, 100, 154, 0.5);
 }
 
 /* line 118, ../tester/assets/css/scss/mixins/_buttons.scss */
-.btn-outline-purple:disabled, .btn-outline-purple.disabled {
+.btn-outline-sass:disabled, .btn-outline-sass.disabled {
   color: #cf649a;
   background-color: transparent;
 }
@@ -6119,14 +6119,14 @@ fieldset:disabled .btn {
 }
 
 /* line 53, ../tester/assets/css/scss/_alert.scss */
-.alert-purple {
+.alert-sass {
   color: #7c3c5c;
   background-color: #f5e0eb;
   border-color: #f1d1e1;
 }
 
 /* line 7, ../tester/assets/css/scss/mixins/_alert.scss */
-.alert-purple .alert-link {
+.alert-sass .alert-link {
   color: #63304a;
 }
 
@@ -6632,19 +6632,19 @@ fieldset:disabled .btn {
 }
 
 /* line 5, ../tester/assets/css/scss/mixins/_list-group.scss */
-.list-group-item-purple {
+.list-group-item-sass {
   color: #7c3c5c;
   background-color: #f5e0eb;
 }
 
 /* line 10, ../tester/assets/css/scss/mixins/_list-group.scss */
-.list-group-item-purple.list-group-item-action:hover, .list-group-item-purple.list-group-item-action:focus {
+.list-group-item-sass.list-group-item-action:hover, .list-group-item-sass.list-group-item-action:focus {
   color: #7c3c5c;
   background-color: #ddcad4;
 }
 
 /* line 16, ../tester/assets/css/scss/mixins/_list-group.scss */
-.list-group-item-purple.list-group-item-action.active {
+.list-group-item-sass.list-group-item-action.active {
   color: #fff;
   background-color: #7c3c5c;
   border-color: #7c3c5c;
@@ -7962,12 +7962,12 @@ fieldset:disabled .btn {
 }
 
 /* line 2, ../tester/assets/css/scss/helpers/_colored-links.scss */
-.link-purple {
+.link-sass {
   color: #cf649a;
 }
 
 /* line 6, ../tester/assets/css/scss/helpers/_colored-links.scss */
-.link-purple:hover, .link-purple:focus {
+.link-sass:hover, .link-sass:focus {
   color: #d983ae;
 }
 
@@ -8492,7 +8492,7 @@ fieldset:disabled .btn {
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.border-purple {
+.border-sass {
   border-color: #cf649a !important;
 }
 
@@ -9534,9 +9534,9 @@ fieldset:disabled .btn {
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.text-purple {
+.text-sass {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-sass-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
@@ -9650,9 +9650,9 @@ fieldset:disabled .btn {
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.bg-purple {
+.bg-sass {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-sass-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */

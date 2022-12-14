@@ -93,12 +93,12 @@
 }
 
 /* line 2, ../tester/assets/css/scss/helpers/_colored-links.scss */
-.link-purple {
+.link-sass {
   color: #cf649a;
 }
 
 /* line 6, ../tester/assets/css/scss/helpers/_colored-links.scss */
-.link-purple:hover, .link-purple:focus {
+.link-sass:hover, .link-sass:focus {
   color: #d983ae;
 }
 
@@ -623,7 +623,7 @@
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.border-purple {
+.border-sass {
   border-color: #cf649a !important;
 }
 
@@ -1665,9 +1665,9 @@
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.text-purple {
+.text-sass {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-sass-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
@@ -1781,9 +1781,9 @@
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
-.bg-purple {
+.bg-sass {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-sass-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../tester/assets/css/scss/mixins/_utilities.scss */
