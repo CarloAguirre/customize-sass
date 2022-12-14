@@ -39,7 +39,6 @@ $grays: (
 // scss-docs-start color-variables
 $blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
-$purple:  #cf649a !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
@@ -76,7 +75,8 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
-$purple:        $purple !default;
+$purple:        #cf649a !default;
+
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
